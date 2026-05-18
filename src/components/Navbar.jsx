@@ -37,7 +37,7 @@ const Navbar = () => {
     }}>
       <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
         <a href="#home" style={{ fontSize: '1.5rem', fontWeight: 700, fontFamily: 'var(--font-heading)' }}>
-          <span className="text-gradient">SK</span>.
+          <span className="text-gradient">SKY</span>.
         </a>
 
         {/* Desktop Nav */}

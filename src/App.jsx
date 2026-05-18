@@ -6,7 +6,8 @@ import Projects from './components/Projects';
 import Certificates from './components/Certificates';
 import Resume from './components/Resume';
 import Contact from './components/Contact';
-import { ReactLenis } from '@studio-freight/react-lenis';
+import Chatbot from './components/Chatbot';
+import { ReactLenis } from 'lenis/react';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Resume />
         <Contact />
       </main>
+      <Chatbot />
       <footer className="footer glass-panel" style={{ borderRadius: 0, borderBottom: 'none', borderLeft: 'none', borderRight: 'none', padding: '2rem', textAlign: 'center', marginTop: '5rem' }}>
         <p style={{ color: 'var(--text-secondary)' }}>
           © {new Date().getFullYear()} Sumit Kumar. Designed for Placement. All rights reserved.
